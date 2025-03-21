@@ -1,3 +1,9 @@
+@supports (scrollbar-width: none) {
+  * {
+    scrollbar-width: none;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
